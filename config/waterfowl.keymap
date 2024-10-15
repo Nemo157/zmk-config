@@ -59,7 +59,7 @@
             bindings = <
                 &kp TILDE       &kp PERCENT        &kp COLON          &kp DQT      &none      &kp GRAVE      &kp QUESTION      &kp CARET      &kp PIPE           &kp UNDER
                 &kp DOLLAR      &kp AMPERSAND      &kp SEMICOLON      &kp SQT      &none      &kp HASH       &kp SLASH         &kp AT         &kp BACKSLASH      &kp MINUS
-                &none           &none              &none              &none        &none      &none          &none             &none          &none              &none
+                &none           &none              &none              &none        &none      &none          &none             &none          &none              &kp BACKSPACE
                 &none           &none              &none              &trans       &none      &none          &trans            &none          &trans             &none
             >;
 
