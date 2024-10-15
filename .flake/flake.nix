@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
 
     zephyr.url = "github:zephyrproject-rtos/zephyr/v3.5.0";
     zephyr.flake = false;
