@@ -13,6 +13,7 @@
   outputs = { self, nixpkgs, zephyr-nix, ... }: let
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
     zephyr = zephyr-nix.packages.x86_64-linux;
+    keymap-drawer = pkgs.callPackage ./keymap-drawer.nix { };
   in {
     devShells.x86_64-linux.default = pkgs.mkShell {
       packages = with pkgs; [
@@ -24,6 +25,7 @@
         ninja
         just
         yq
+        keymap-drawer
       ];
     };
   };

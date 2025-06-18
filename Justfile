@@ -54,5 +54,8 @@ init:
 list:
     @just _parse_targets all | sed 's/,$//' | sort | column
 
+keymap:
+    keymap parse -z config/waterfowl.keymap | keymap draw -z waterfowl - > keymap.svg
+
 update:
     west update
