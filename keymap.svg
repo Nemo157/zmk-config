@@ -134,7 +134,14 @@ text.label, text.footer { stroke: black; }
 text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
-}</style>
+}
+svg {
+    background-color: #eeeeee;
+}
+@media (prefers-color-scheme: dark) {
+    svg { background-color: #111111; }
+}
+</style>
 <g transform="translate(30, 0)" class="layer-dvk">
 <text x="0" y="28" class="label" id="dvk">dvk:</text>
 <g transform="translate(0, 56)">

@@ -1,2 +1,9 @@
 draw_config:
   dark_mode: auto
+  svg_extra_style: |
+    svg {
+        background-color: #eeeeee;
+    }
+    @media (prefers-color-scheme: dark) {
+        svg { background-color: #111111; }
+    }
